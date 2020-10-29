@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    background: #03051e !important;
+	height: 100%;
+}
+
+table{
+	/* background: rgb(246,201,50) !important; */
+    font-weight: bold !important;
+	width: 100%;
+}
+
+#formPadding{
+	padding: 200px;
+}
+
+#submitButton{
+	background: #03051e !important;
+	padding-top: 22px;
+	margin: 0;
+}
+
+#form-yellow{
+	border-bottom: 100px;
+	padding: 35px 35px 10px 35px;
+	border: 5px solid rgb(246, 201, 50)
+}
+
+#form-green{
+	border-bottom: 100px;
+	padding: 35px 35px 10px 35px;
+	border: 5px solid #2ecc40
+}
+
+.heading{
+	text-align: center
+}
+
+#heading-yellow{
+	color:#f6c90e;
+}
+
+#heading-green{
+	color: #2ecc40;
+}
+
+#submit-green{
+	background: #2ecc40;
+}
+#submit-yellow{
+	background: #f6c90e;
+}
+
+#idpass{
+	
+	border: 3px solid #f6c90e;
+	border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px 100px 200px;
+    width: 35%;
+    height: 200px;
+}
+
+#password{
+	margin-top: 200px;
+	display: flex;
+	justify-content: center;
+	color: #f6c90e;
+}
+@media (max-width:600px){
+	table{
+	background: white !important;
+    font-weight: bold !important;
+	
+	
+}
+	
+	#formPadding{
+	padding: 10px;
+}
+	
+	#idpass{
+	background: #f6c90e;
+	border: 2px solid red;
+	border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 150px 150px 150px;
+    width: 50%;
+    height: 100px;
+}
+	
+	#password{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	color: #f6c90e;
+}
+	
+	#passbutton{
+		background: #FFFFFF;
+		color: #03051e;
+	}
+}
